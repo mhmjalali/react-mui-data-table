@@ -1,10 +1,10 @@
 "use client";
 
 import {Box, Drawer, styled} from "@mui/material";
-import HideBodyField from "@/components/DataTable/hide/HideBodyField";
-import HideHeader from "@/components/DataTable/hide/HideHeader";
+import HideBodyField from "./HideBodyField";
+import HideHeader from "./HideHeader";
 import useDataTable from "@/lib/hooks/useDataTable";
-import HideOrShowAll from "@/components/DataTable/hide/HideOrShowAll";
+import HideOrShowAll from "./HideOrShowAll";
 
 const ScrollBox = styled(Box)({
     flexGrow: 1,

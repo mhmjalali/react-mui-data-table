@@ -4,9 +4,9 @@ import {Box, Button, Drawer, styled} from "@mui/material";
 import {Form, Formik} from "formik";
 import useTableSetting from "@/lib/hooks/useTableSetting";
 import {useEffect, useState} from "react";
-import FilterHeader from "@/components/DataTable/filter/FilterHeader";
+import FilterHeader from "./FilterHeader";
 import * as Yup from "yup";
-import FilterBodyField from "@/components/DataTable/filter/FilterBodyField";
+import FilterBodyField from "./FilterBodyField";
 import useDataTable from "@/lib/hooks/useDataTable";
 
 const ScrollBox = styled(Box)({

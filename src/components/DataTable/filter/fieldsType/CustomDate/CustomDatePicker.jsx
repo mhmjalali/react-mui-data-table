@@ -1,5 +1,5 @@
 import React from "react";
-import MuiDatePicker from "@/components/DataTable/filter/fieldsType/CustomDate/MuiDatePicker";
+import MuiDatePicker from "./MuiDatePicker";
 import {Typography} from "@mui/material";
 
 function CustomDatePicker({column, filterParameters, defaultFilterTranslation, setFieldValue}) {

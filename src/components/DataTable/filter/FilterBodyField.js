@@ -1,11 +1,11 @@
 import {useState} from "react";
-import FilterOptionList from "@/components/DataTable/filter/FilterOptionList";
-import CustomSelect from "@/components/DataTable/filter/fieldsType/CustomSelect";
-import CustomTextField from "@/components/DataTable/filter/fieldsType/CustomTextField";
-import CustomTextFieldRange from "@/components/DataTable/filter/fieldsType/CustomTextFieldRange";
-import CustomDatePickerRange from "@/components/DataTable/filter/fieldsType/CustomDate/CustomDatePickerRange";
-import CustomDatePicker from "@/components/DataTable/filter/fieldsType/CustomDate/CustomDatePicker";
-import CustomSelectMultiple from "@/components/DataTable/filter/fieldsType/CustomSelectMultiple";
+import FilterOptionList from "./FilterOptionList";
+import CustomSelect from "./fieldsType/CustomSelect";
+import CustomTextField from "./fieldsType/CustomTextField";
+import CustomTextFieldRange from "./fieldsType/CustomTextFieldRange";
+import CustomDatePickerRange from "./fieldsType/CustomDate/CustomDatePickerRange";
+import CustomDatePicker from "./fieldsType/CustomDate/CustomDatePicker";
+import CustomSelectMultiple from "./fieldsType/CustomSelectMultiple";
 
 const columnFilterModeOptionFa = {
     equals: "برابر",

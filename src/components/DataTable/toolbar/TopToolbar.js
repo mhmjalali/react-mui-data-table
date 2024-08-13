@@ -2,10 +2,10 @@ import {getCommonToolbarStyles, parseFromValuesOrFunc} from "@/utils/utils";
 import {Box, Typography, useMediaQuery} from "@mui/material";
 import DataTable_LinearProgressBar from "./LinearProgressBar";
 import DataTable_TablePagination from "./TablePagination";
-import FilterColumn from "@/components/DataTable/filter";
-import UpdateTable from "@/components/DataTable/update/UpdateTable";
-import ResetStorage from "@/components/DataTable/reset/ResetStorage";
-import HideColumn from "@/components/DataTable/hide";
+import FilterColumn from "../filter";
+import UpdateTable from "../update/UpdateTable";
+import ResetStorage from "../reset/ResetStorage";
+import HideColumn from "../hide";
 
 const DataTable_TopToolbar = ({
                                   mutate,

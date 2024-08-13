@@ -1,11 +1,10 @@
-import {isCellEditable, openEditingCell} from "material-react-table";
-
-const {parseFromValuesOrFunc, getCommonMRTCellStyles} = require("@/utils/utils");
-const {useTheme} = require("@emotion/react");
-const {TableCell, Skeleton} = require("@mui/material");
-const {useState, useEffect, useMemo, memo} = require("react");
-const {default: DataTable_CopyButton} = require("../buttons/CopyButton");
-const {default: DataTable_TableBodyCellValue} = require("./TableBodyCellValue");
+import {isCellEditable, openEditingCell} from 'material-react-table';
+import {getCommonMRTCellStyles, parseFromValuesOrFunc} from '@/utils/utils';
+import {useTheme} from '@emotion/react';
+import {Skeleton, TableCell} from '@mui/material';
+import {memo, useEffect, useMemo, useState} from 'react';
+import DataTable_CopyButton from '../buttons/CopyButton';
+import DataTable_TableBodyCellValue from './TableBodyCellValue';
 
 const DataTable_TableBodyCell = ({cell, numRows, rowRef, staticColumnIndex, staticRowIndex, table, ...rest}) => {
     const theme = useTheme();

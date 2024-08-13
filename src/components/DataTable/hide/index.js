@@ -1,8 +1,8 @@
 "use client";
 
 import {useState} from "react";
-import HideButton from "@/components/DataTable/hide/HideButton";
-import HideBody from "@/components/DataTable/hide/HideBody";
+import HideButton from "./HideButton";
+import HideBody from "./HideBody";
 
 function HideColumn({columns, user_id, page_name, table_name}) {
     const [open, setOpen] = useState(false);

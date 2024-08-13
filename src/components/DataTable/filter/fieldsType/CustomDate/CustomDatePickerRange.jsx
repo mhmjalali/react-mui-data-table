@@ -2,7 +2,7 @@
 
 import React from "react";
 import {Box, Typography} from "@mui/material";
-import MuiDatePicker from "@/components/DataTable/filter/fieldsType/CustomDate/MuiDatePicker";
+import MuiDatePicker from "./MuiDatePicker";
 
 function CustomDatePickerRange({column, filterParameters, defaultFilterTranslation, setFieldValue, errors, touched}) {
     return (
