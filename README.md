@@ -1,6 +1,6 @@
-# DataTable Component Documentation (RMS Project)
+# DataTable Component Documentation
 
-This document outlines the usage and structure for the `<DataTable />` component in the RMS project. Follow these
+This document outlines the usage and structure for the `<DataTable />` component. Follow these
 guidelines to integrate and configure DataTables on your pages.
 
 ## Table of Contents
